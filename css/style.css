@@ -3407,6 +3407,9 @@ input[type="button"].btn-block {
     right: 0;
     left: auto;
   }
+  .tabs{
+    display: block !important;
+  }
 }
 
 @media (min-width: 768px) {
@@ -3417,6 +3420,11 @@ input[type="button"].btn-block {
   .dropdown-menu-md-right {
     right: 0;
     left: auto;
+  }
+}
+@media (max-width: 768px) {
+  .tabs{
+    display: block !important;
   }
 }
 
